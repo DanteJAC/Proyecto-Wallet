@@ -1,0 +1,16 @@
+body {
+    background-image: linear-gradient( to left, magenta,yellow, rgb(1, 247, 255), rgb(255, 0, 234) );
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+.container {
+    background-image: linear-gradient( to left, magenta,yellow, rgb(1, 247, 255), rgb(255, 0, 234) );
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 12px 10px 14px rgba(0, 0, 0, 0.1);
+}
+/* Otros estilos específicos según tus necesidades */

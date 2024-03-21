@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="../Style/Sendmoney.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+  <title>Document</title>
+</head>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="img/9bd5699245c1a55ceee00fc5db7f66dd.png">Logo</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="Menu.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Historial transferencias.html">Historial Movimientos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Configuracion.html">Configuracion</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Login.html">Cerrar Sesion</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<br>
+<br>
+<br>
+<br>
+<body>
+  <div class="container text-center">
+    <h2>Agregar Contacto</h2>
+    <form id="contactForm">
+      <input type="text" id="contactName" placeholder="Nombre">
+      <input type="text" id="contactEmail" placeholder="Correo electrónico">
+      <button type="button" onclick="addContact()">Agregar Contacto</button>
+    </form>
+    <br>
+    <br>
+    <br>
+    <h2>Realizar Transferencia</h2>
+    <form id="transferForm">
+      <select id="contactSelect">
+        <!-- Aquí se agregarán opciones de contactos dinámicamente -->
+      </select>
+      <input type="number" id="amount" placeholder="Monto">
+      <button type="button" onclick="transfer()">Realizar Transferencia</button>
+    </form>
+
+    <h2>Lista de Contactos</h2>
+    <ul class="contact-list" id="contactList">
+      <!-- Aquí se mostrarán los contactos agregados -->
+    </ul>
+
+    <h2>Historial de Transferencias</h2>
+    <ul class="transfer-history" id="transferHistory">
+      <!-- Aquí se mostrará el historial de transferencias -->
+    </ul>
+
+  </div>
+  <script src="../JS/sendmoney.js"></script>
+  </head>
+</body>
+
+</html>

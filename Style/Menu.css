@@ -1,0 +1,13 @@
+body {
+    background-image: linear-gradient( to left, magenta,yellow, rgb(1, 247, 255), rgb(255, 0, 234) )
+}
+h2 {
+    box-shadow: 0cap 1px 5px 0.5cap;
+    margin: 50px 50px 30px 50px;
+     padding: 10px 20px;   
+}
+.form-group{
+    box-shadow: 0cap 1px 5px 0.5cap;
+    margin: 50px 50px 30px 50px;
+     padding: 10px 20px;   
+}

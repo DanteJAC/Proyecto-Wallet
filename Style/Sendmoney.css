@@ -1,0 +1,53 @@
+/* Estilos CSS para diseño visual */
+            /* Puedes personalizar estos estilos según tus necesidades */
+            body {
+                font-family: Arial, sans-serif;
+                background-image: linear-gradient( to left, magenta,yellow, rgb(1, 247, 255), rgb(255, 0, 234) )
+                }
+            
+            
+            .container {
+                max-width: 600px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+            
+            form {
+                margin-bottom: 20px;
+            }
+            
+            input[type="text"], input[type="number"] {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 10px;
+            }
+            
+            button {
+                padding: 10px 20px;
+                background-color: #007bff;
+                color: #fff;
+                border: none;
+                cursor: pointer;
+            }
+            
+            button:hover {
+                background-color: #0056b3;
+            }
+            
+            .contact-list {
+                list-style-type: none;
+                padding: 0;
+            }
+            
+            .contact-list li {
+                margin-bottom: 10px;
+            }
+            
+            .transfer-history {
+                list-style-type: none;
+                padding: 0;
+            }
+            
+            .transfer-history li {
+                margin-bottom: 10px;
+            }
